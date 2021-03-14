@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;1,200&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  text-align: center;
+  margin: 20px
+}
+
+.App-logo {
+  height: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.react-photo-gallery--gallery img{
+  width: 100px;
+  cursor:move;
+}
+
+
+.ReactGridGallery_tile-viewport img{
+  width: 100px;
+}
+
+.ReactGridGallery_tile {
+  width: 100px;
+  overflow: hidden;
+}
+
+.image-grid-controllers{
+  padding: 20px 0px
+}
+
+.image-grid-controllers button{
+  float: right;
+}
+
+.image-grid-controllers.prev button{
+  float: left !important;
+}
+
+.pastbook-container{
+  padding: 20px;
+}
+
+.sub-header{
+  float: left;
+  font-size: 14px
+}
+
+.selection-info{
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 600;
+}
